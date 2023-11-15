@@ -1,0 +1,27 @@
+<P>To use <I>TestCocoon</I> with Microsoft<SUP> <FONT size="1">C</FONT> </SUP>Visual 
+    Studio<SUP> <FONT size="1">C</FONT> </SUP>&nbsp;.NET proceed as follows:
+</P>
+First part of change to merge
+<OL class="enumerate" type="1">
+    <LI class="li-enumerate">
+        Add the location of the <I>CoverageScanner</I> wrappers to the first position 
+        in the <TT>VC++ Directories</TT>.<BR>
+<OL class="enumerate" type="a">
+    <LI class="li-enumerate">
+        Start Microsoft<SUP> <FONT size="1">C</FONT> </SUP>Visual Studio<SUP> <FONT size="1">C</FONT>
+        </SUP>&nbsp;.NET.
+    </LI>
+    Second part of change to merge: delete LI
+        <b>Open the option dialog: click on “<TT>Tools-&gt;Options...</TT>”.</b>
+    <LI class="li-enumerate">
+        Select the item “<TT>Projects-&gt;VC++ Directories</TT>”.
+    </LI>
+    <LI class="li-enumerate">
+        Add the entry <CODE>$(TESTCOCOON)\visualstudio</CODE> to the first position 
+        in the list of directories. <img src="visual_option_net.png">
+    </LI>
+Do no merge this change.
+</OL>
+</LI></OL>
+<P class="li-enumerate"><BR>
+</P>
